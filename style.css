@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  background-color: #1F1F1F;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ED815A;
+  font-size: 14px;
+}
+
+.container {
+  background-color: black;
+  width: 500px;
+  border: none;
+  position: left;
+}
