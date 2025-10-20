@@ -43,7 +43,7 @@ main {
   position: relative;
   top: 80px;
   width: 500px;
-  margin: 0 0 100px 25px;
+  margin: 0 0 100px 75px;
 }
 
 h1 {
@@ -51,7 +51,7 @@ h1 {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: .15em;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .rake {
@@ -62,11 +62,11 @@ h1 {
 .jump {
   width: 100vw;
   position: sticky;
-  top: 250px;
+  top: 200px;
 }
 
 .scare {
-  height: 125px;
+  height: 150px;
   width: auto;
   float: right;
 }
@@ -78,4 +78,13 @@ h1 {
 p {
   text-align: justify;
   padding: 10px 0;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: darkred;
+  text-decoration: none;
 }
